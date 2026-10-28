@@ -1,0 +1,23 @@
+{
+  "base": {
+    "profile": "s7p",
+    "matched": 802,
+    "exact": 161,
+    "candidate_sha256": "7148f08aef7e8f4a67a62eb70d2967ed1b66f7cd6226fdd6157a3419bc880fd2"
+  },
+  "after": {
+    "note": "layout tool packet; source and binary unchanged",
+    "matched": 802,
+    "exact": 161,
+    "lost_matched": [],
+    "lost_raw": []
+  },
+  "relayout_Y42": {
+    "prefix": "programs/pump/src/",
+    "rodata_delta": -140,
+    "data_rel_ro_delta": 1456,
+    "inline_locations": {"dep": 386, "cand": 407, "matched": 63, "missing": 323, "extra": 344},
+    "data_locations": {"dep": 42, "cand": 87, "matched": 1, "missing": 41, "extra": 86},
+    "paths": {"dep": 33, "cand": 35, "matched": 23, "missing": 10, "extra": 12}
+  }
+}

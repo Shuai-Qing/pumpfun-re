@@ -1,0 +1,108 @@
+# relayout.py  prefix='programs/pump/src/'
+  .rodata: dep=32031 cand=31891 delta=-140
+  .data.rel.ro: dep=10352 cand=11808 delta=1456
+inline Locations: dep=386 cand=407 matched=63 missing=323 extra=344
+data.rel.ro Locations: dep=42 cand=87 matched=1 missing=41 extra=86
+paths: dep=33 cand=35 matched=23 missing=10 extra=12
+data.rel.ro &str: {'dep': 12, 'cand': 14, 'matched': 5, 'missing': 7, 'extra': 9}
+error_name tokens: {'dep': 6, 'cand': 9}
+residual .data.rel.ro slots: {'dep': 928, 'cand': 942}
+files with inline line/col shifts: 40
+  programs/pump/src/admin_set_idl_authority.rs: dep=3 cand=2
+    dep_lines=[(90, 44), (6010, 72), (6010, 79)]
+    cand_lines=[(6010, 28), (6010, 30)]
+  programs/pump/src/buy.rs: dep=8 cand=1
+    dep_lines=[(57, 24), (59, 24), (92, 24), (110, 24), (133, 24), (143, 24)]
+    cand_lines=[(4101, 7)]
+  programs/pump/src/buy_v2.rs: dep=34 cand=39
+    dep_lines=[(88, 27), (369, 27), (494, 27), (780, 27), (873, 27), (907, 27)]
+    cand_lines=[(69, 27), (74, 27), (74, 27), (75, 27), (75, 27), (87, 27)]
+  programs/pump/src/cashback.rs: dep=0 cand=4
+    dep_lines=[]
+    cand_lines=[(51, 29), (52, 29), (6010, 44), (6024, 38)]
+  programs/pump/src/create.rs: dep=0 cand=3
+    dep_lines=[]
+    cand_lines=[(4101, 6), (4101, 6), (6030, 30)]
+  programs/pump/src/create_v2.rs: dep=34 cand=26
+    dep_lines=[(220, 30), (243, 30), (258, 30), (758, 30), (774, 30), (778, 30)]
+    cand_lines=[(53, 30), (54, 30), (59, 30), (61, 30), (63, 30), (64, 30)]
+  programs/pump/src/creator/admin_cto.rs: dep=16 cand=16
+    dep_lines=[(307, 38), (312, 38), (330, 38), (334, 38), (338, 38), (660, 38)]
+    cand_lines=[(103, 38), (106, 38), (107, 38), (108, 38), (109, 38), (110, 38)]
+  programs/pump/src/creator/collect_creator_fee.rs: dep=2 cand=1
+    dep_lines=[(6050, 103), (6050, 198)]
+    cand_lines=[(6050, 20)]
+  programs/pump/src/creator/distribute_creator_fee_v2.rs: dep=13 cand=0
+    dep_lines=[(6024, 168), (6024, 378), (6027, 149), (6027, 152), (6027, 340), (6027, 346)]
+    cand_lines=[]
+  programs/pump/src/creator/distribute_creator_fees.rs: dep=10 cand=0
+    dep_lines=[(6024, 158), (6024, 165), (6024, 343), (6027, 143), (6027, 325), (6051, 241)]
+    cand_lines=[]
+  programs/pump/src/creator/distribute_fee_to_holders.rs: dep=5 cand=5
+    dep_lines=[(164, 54), (6024, 157), (6085, 82), (6085, 122), (6087, 120)]
+    cand_lines=[(40, 54), (6024, 38), (6085, 24), (6085, 34), (6087, 33)]
+  programs/pump/src/creator/migrate_bonding_curve_creator.rs: dep=2 cand=2
+    dep_lines=[(6083, 46), (6095, 53)]
+    cand_lines=[(6083, 16), (6095, 16)]
+  programs/pump/src/distribution.rs: dep=0 cand=23
+    dep_lines=[]
+    cand_lines=[(62, 33), (100, 33), (113, 33), (3002, 17), (6024, 133), (6024, 133)]
+  programs/pump/src/extend_account.rs: dep=3 cand=1
+    dep_lines=[(6010, 84), (6010, 107), (6024, 141)]
+    cand_lines=[(6010, 22)]
+  programs/pump/src/fee_cpi.rs: dep=0 cand=4
+    dep_lines=[]
+    cand_lines=[(6024, 10), (6025, 14), (6026, 11), (6026, 55)]
+  programs/pump/src/fee_recipient.rs: dep=5 cand=2
+    dep_lines=[(78, 34), (6000, 19), (6000, 35), (6027, 47), (6028, 60)]
+    cand_lines=[(6000, 16), (6000, 22)]
+  programs/pump/src/global_init.rs: dep=0 cand=1
+    dep_lines=[]
+    cand_lines=[(4101, 3)]
+  programs/pump/src/lib.rs: dep=70 cand=66
+    dep_lines=[(270, 24), (278, 24), (617, 24), (619, 24), (654, 24), (1012, 24)]
+    cand_lines=[(612, 24), (612, 24), (612, 24), (613, 24), (614, 24), (665, 24)]
+  programs/pump/src/migrate.rs: dep=4 cand=4
+    dep_lines=[(6006, 251), (6024, 280), (6024, 282), (6027, 527)]
+    cand_lines=[(286, 28), (6006, 47), (6024, 280), (6024, 282)]
+  programs/pump/src/migrate_v2.rs: dep=8 cand=7
+    dep_lines=[(335, 31), (2006, 243), (6006, 249), (6024, 309), (6024, 313), (6024, 326)]
+    cand_lines=[(329, 31), (2006, 55), (6006, 55), (6024, 309), (6024, 313), (6024, 326)]
+missing paths:
+  programs/pump/src/creator/distribute_creator_fee_v2.rs
+  programs/pump/src/creator/distribute_creator_fees.rs
+  programs/pump/src/creator/set_creator.rs
+  programs/pump/src/creator/set_metaplex_creator.rs
+  programs/pump/src/pump_quote.rs
+  programs/pump/src/set_reserved_fee_recipients.rs
+  programs/pump/src/token_incentives/claim_token_incentives.rs
+  programs/pump/src/token_incentives/init_user_volume_accumulator.rs
+  programs/pump/src/util/constant_product.rs
+  programs/pump/src/util/transfer_fee.rs
+extra paths:
+  programs/pump/src/cashback.rs
+  programs/pump/src/create.rs
+  programs/pump/src/curve_quote_payments.rs
+  programs/pump/src/distribution.rs
+  programs/pump/src/fee_cpi.rs
+  programs/pump/src/global_init.rs
+  programs/pump/src/nested_create.rs
+  programs/pump/src/set_creator.rs
+  programs/pump/src/set_params.rs
+  programs/pump/src/trade_types.rs
+  programs/pump/src/v2_recipient_payments.rs
+  programs/pump/src/volume_sync.rs
+missing inline Location sample:
+  programs/pump/src/admin_set_idl_authority.rs:90:44
+  programs/pump/src/admin_set_idl_authority.rs:6010:72
+  programs/pump/src/admin_set_idl_authority.rs:6010:79
+  programs/pump/src/buy.rs:57:24
+  programs/pump/src/buy.rs:59:24
+  programs/pump/src/buy.rs:92:24
+  programs/pump/src/buy.rs:110:24
+  programs/pump/src/buy.rs:133:24
+  programs/pump/src/buy.rs:143:24
+  programs/pump/src/buy.rs:151:24
+  programs/pump/src/buy.rs:6005:53
+  programs/pump/src/buy_v2.rs:88:27
+wrote /workspace/chantier/t6relayout/relayout-Y42.json

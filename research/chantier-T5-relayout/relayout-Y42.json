@@ -1,0 +1,2556 @@
+{
+  "prefix": "programs/pump/src/",
+  "sections": {
+    ".rodata": {
+      "dep_size": 32031,
+      "cand_size": 31891,
+      "delta": -140
+    },
+    ".data.rel.ro": {
+      "dep_size": 10352,
+      "cand_size": 11808,
+      "delta": 1456
+    }
+  },
+  "counts": {
+    "inline_locations": {
+      "dep": 386,
+      "cand": 407,
+      "matched": 63,
+      "missing": 323,
+      "extra": 344
+    },
+    "data_locations": {
+      "dep": 42,
+      "cand": 87,
+      "matched": 1,
+      "missing": 41,
+      "extra": 86
+    },
+    "paths": {
+      "dep": 33,
+      "cand": 35,
+      "matched": 23,
+      "missing": 10,
+      "extra": 12
+    },
+    "data_strings": {
+      "dep": 12,
+      "cand": 14,
+      "matched": 5,
+      "missing": 7,
+      "extra": 9
+    },
+    "error_names": {
+      "dep": 6,
+      "cand": 9
+    },
+    "residual_slots": {
+      "dep": 928,
+      "cand": 942
+    }
+  },
+  "inline_line_shifts": [
+    {
+      "file": "programs/pump/src/admin_set_idl_authority.rs",
+      "dep_count": 3,
+      "cand_count": 2,
+      "dep_lines": [
+        [
+          90,
+          44
+        ],
+        [
+          6010,
+          72
+        ],
+        [
+          6010,
+          79
+        ]
+      ],
+      "cand_lines": [
+        [
+          6010,
+          28
+        ],
+        [
+          6010,
+          30
+        ]
+      ]
+    },
+    {
+      "file": "programs/pump/src/buy.rs",
+      "dep_count": 8,
+      "cand_count": 1,
+      "dep_lines": [
+        [
+          57,
+          24
+        ],
+        [
+          59,
+          24
+        ],
+        [
+          92,
+          24
+        ],
+        [
+          110,
+          24
+        ],
+        [
+          133,
+          24
+        ],
+        [
+          143,
+          24
+        ],
+        [
+          151,
+          24
+        ],
+        [
+          6005,
+          53
+        ]
+      ],
+      "cand_lines": [
+        [
+          4101,
+          7
+        ]
+      ]
+    },
+    {
+      "file": "programs/pump/src/buy_v2.rs",
+      "dep_count": 34,
+      "cand_count": 39,
+      "dep_lines": [
+        [
+          88,
+          27
+        ],
+        [
+          369,
+          27
+        ],
+        [
+          494,
+          27
+        ],
+        [
+          780,
+          27
+        ],
+        [
+          873,
+          27
+        ],
+        [
+          907,
+          27
+        ],
+        [
+          921,
+          27
+        ],
+        [
+          967,
+          27
+        ],
+        [
+          979,
+          27
+        ],
+        [
+          986,
+          27
+        ],
+        [
+          997,
+          27
+        ],
+        [
+          2006,
+          55
+        ]
+      ],
+      "cand_lines": [
+        [
+          69,
+          27
+        ],
+        [
+          74,
+          27
+        ],
+        [
+          74,
+          27
+        ],
+        [
+          75,
+          27
+        ],
+        [
+          75,
+          27
+        ],
+        [
+          87,
+          27
+        ],
+        [
+          501,
+          27
+        ],
+        [
+          501,
+          27
+        ],
+        [
+          882,
+          27
+        ],
+        [
+          882,
+          27
+        ],
+        [
+          996,
+          27
+        ],
+        [
+          996,
+          27
+        ]
+      ]
+    },
+    {
+      "file": "programs/pump/src/cashback.rs",
+      "dep_count": 0,
+      "cand_count": 4,
+      "dep_lines": [],
+      "cand_lines": [
+        [
+          51,
+          29
+        ],
+        [
+          52,
+          29
+        ],
+        [
+          6010,
+          44
+        ],
+        [
+          6024,
+          38
+        ]
+      ]
+    },
+    {
+      "file": "programs/pump/src/create.rs",
+      "dep_count": 0,
+      "cand_count": 3,
+      "dep_lines": [],
+      "cand_lines": [
+        [
+          4101,
+          6
+        ],
+        [
+          4101,
+          6
+        ],
+        [
+          6030,
+          30
+        ]
+      ]
+    },
+    {
+      "file": "programs/pump/src/create_v2.rs",
+      "dep_count": 34,
+      "cand_count": 26,
+      "dep_lines": [
+        [
+          220,
+          30
+        ],
+        [
+          243,
+          30
+        ],
+        [
+          258,
+          30
+        ],
+        [
+          758,
+          30
+        ],
+        [
+          774,
+          30
+        ],
+        [
+          778,
+          30
+        ],
+        [
+          4101,
+          27
+        ],
+        [
+          4101,
+          27
+        ],
+        [
+          6024,
+          473
+        ],
+        [
+          6024,
+          586
+        ],
+        [
+          6024,
+          588
+        ],
+        [
+          6027,
+          198
+        ]
+      ],
+      "cand_lines": [
+        [
+          53,
+          30
+        ],
+        [
+          54,
+          30
+        ],
+        [
+          59,
+          30
+        ],
+        [
+          61,
+          30
+        ],
+        [
+          63,
+          30
+        ],
+        [
+          64,
+          30
+        ],
+        [
+          72,
+          30
+        ],
+        [
+          73,
+          30
+        ],
+        [
+          76,
+          30
+        ],
+        [
+          80,
+          30
+        ],
+        [
+          82,
+          30
+        ],
+        [
+          83,
+          30
+        ]
+      ]
+    },
+    {
+      "file": "programs/pump/src/creator/admin_cto.rs",
+      "dep_count": 16,
+      "cand_count": 16,
+      "dep_lines": [
+        [
+          307,
+          38
+        ],
+        [
+          312,
+          38
+        ],
+        [
+          330,
+          38
+        ],
+        [
+          334,
+          38
+        ],
+        [
+          338,
+          38
+        ],
+        [
+          660,
+          38
+        ],
+        [
+          719,
+          38
+        ],
+        [
+          2006,
+          648
+        ],
+        [
+          6083,
+          289
+        ],
+        [
+          6084,
+          296
+        ],
+        [
+          6088,
+          284
+        ],
+        [
+          6089,
+          306
+        ]
+      ],
+      "cand_lines": [
+        [
+          103,
+          38
+        ],
+        [
+          106,
+          38
+        ],
+        [
+          107,
+          38
+        ],
+        [
+          108,
+          38
+        ],
+        [
+          109,
+          38
+        ],
+        [
+          110,
+          38
+        ],
+        [
+          112,
+          38
+        ],
+        [
+          115,
+          38
+        ],
+        [
+          117,
+          38
+        ],
+        [
+          118,
+          38
+        ],
+        [
+          120,
+          38
+        ],
+        [
+          6030,
+          106
+        ]
+      ]
+    },
+    {
+      "file": "programs/pump/src/creator/collect_creator_fee.rs",
+      "dep_count": 2,
+      "cand_count": 1,
+      "dep_lines": [
+        [
+          6050,
+          103
+        ],
+        [
+          6050,
+          198
+        ]
+      ],
+      "cand_lines": [
+        [
+          6050,
+          20
+        ]
+      ]
+    },
+    {
+      "file": "programs/pump/src/creator/distribute_creator_fee_v2.rs",
+      "dep_count": 13,
+      "cand_count": 0,
+      "dep_lines": [
+        [
+          6024,
+          168
+        ],
+        [
+          6024,
+          378
+        ],
+        [
+          6027,
+          149
+        ],
+        [
+          6027,
+          152
+        ],
+        [
+          6027,
+          340
+        ],
+        [
+          6027,
+          346
+        ],
+        [
+          6051,
+          205
+        ],
+        [
+          6052,
+          125
+        ],
+        [
+          6054,
+          101
+        ],
+        [
+          6054,
+          112
+        ],
+        [
+          6055,
+          163
+        ],
+        [
+          6070,
+          173
+        ]
+      ],
+      "cand_lines": []
+    },
+    {
+      "file": "programs/pump/src/creator/distribute_creator_fees.rs",
+      "dep_count": 10,
+      "cand_count": 0,
+      "dep_lines": [
+        [
+          6024,
+          158
+        ],
+        [
+          6024,
+          165
+        ],
+        [
+          6024,
+          343
+        ],
+        [
+          6027,
+          143
+        ],
+        [
+          6027,
+          325
+        ],
+        [
+          6051,
+          241
+        ],
+        [
+          6052,
+          116
+        ],
+        [
+          6054,
+          103
+        ],
+        [
+          6055,
+          148
+        ],
+        [
+          6095,
+          249
+        ]
+      ],
+      "cand_lines": []
+    },
+    {
+      "file": "programs/pump/src/creator/distribute_fee_to_holders.rs",
+      "dep_count": 5,
+      "cand_count": 5,
+      "dep_lines": [
+        [
+          164,
+          54
+        ],
+        [
+          6024,
+          157
+        ],
+        [
+          6085,
+          82
+        ],
+        [
+          6085,
+          122
+        ],
+        [
+          6087,
+          120
+        ]
+      ],
+      "cand_lines": [
+        [
+          40,
+          54
+        ],
+        [
+          6024,
+          38
+        ],
+        [
+          6085,
+          24
+        ],
+        [
+          6085,
+          34
+        ],
+        [
+          6087,
+          33
+        ]
+      ]
+    },
+    {
+      "file": "programs/pump/src/creator/migrate_bonding_curve_creator.rs",
+      "dep_count": 2,
+      "cand_count": 2,
+      "dep_lines": [
+        [
+          6083,
+          46
+        ],
+        [
+          6095,
+          53
+        ]
+      ],
+      "cand_lines": [
+        [
+          6083,
+          16
+        ],
+        [
+          6095,
+          16
+        ]
+      ]
+    },
+    {
+      "file": "programs/pump/src/distribution.rs",
+      "dep_count": 0,
+      "cand_count": 23,
+      "dep_lines": [],
+      "cand_lines": [
+        [
+          62,
+          33
+        ],
+        [
+          100,
+          33
+        ],
+        [
+          113,
+          33
+        ],
+        [
+          3002,
+          17
+        ],
+        [
+          6024,
+          133
+        ],
+        [
+          6024,
+          133
+        ],
+        [
+          6024,
+          135
+        ],
+        [
+          6024,
+          154
+        ],
+        [
+          6027,
+          124
+        ],
+        [
+          6027,
+          144
+        ],
+        [
+          6027,
+          145
+        ],
+        [
+          6051,
+          55
+        ]
+      ]
+    },
+    {
+      "file": "programs/pump/src/extend_account.rs",
+      "dep_count": 3,
+      "cand_count": 1,
+      "dep_lines": [
+        [
+          6010,
+          84
+        ],
+        [
+          6010,
+          107
+        ],
+        [
+          6024,
+          141
+        ]
+      ],
+      "cand_lines": [
+        [
+          6010,
+          22
+        ]
+      ]
+    },
+    {
+      "file": "programs/pump/src/fee_cpi.rs",
+      "dep_count": 0,
+      "cand_count": 4,
+      "dep_lines": [],
+      "cand_lines": [
+        [
+          6024,
+          10
+        ],
+        [
+          6025,
+          14
+        ],
+        [
+          6026,
+          11
+        ],
+        [
+          6026,
+          55
+        ]
+      ]
+    },
+    {
+      "file": "programs/pump/src/fee_recipient.rs",
+      "dep_count": 5,
+      "cand_count": 2,
+      "dep_lines": [
+        [
+          78,
+          34
+        ],
+        [
+          6000,
+          19
+        ],
+        [
+          6000,
+          35
+        ],
+        [
+          6027,
+          47
+        ],
+        [
+          6028,
+          60
+        ]
+      ],
+      "cand_lines": [
+        [
+          6000,
+          16
+        ],
+        [
+          6000,
+          22
+        ]
+      ]
+    },
+    {
+      "file": "programs/pump/src/global_init.rs",
+      "dep_count": 0,
+      "cand_count": 1,
+      "dep_lines": [],
+      "cand_lines": [
+        [
+          4101,
+          3
+        ]
+      ]
+    },
+    {
+      "file": "programs/pump/src/lib.rs",
+      "dep_count": 70,
+      "cand_count": 66,
+      "dep_lines": [
+        [
+          270,
+          24
+        ],
+        [
+          278,
+          24
+        ],
+        [
+          617,
+          24
+        ],
+        [
+          619,
+          24
+        ],
+        [
+          654,
+          24
+        ],
+        [
+          1012,
+          24
+        ],
+        [
+          2501,
+          90
+        ],
+        [
+          2506,
+          90
+        ],
+        [
+          3002,
+          83
+        ],
+        [
+          3002,
+          84
+        ],
+        [
+          3002,
+          84
+        ],
+        [
+          3002,
+          90
+        ]
+      ],
+      "cand_lines": [
+        [
+          612,
+          24
+        ],
+        [
+          612,
+          24
+        ],
+        [
+          612,
+          24
+        ],
+        [
+          613,
+          24
+        ],
+        [
+          614,
+          24
+        ],
+        [
+          665,
+          24
+        ],
+        [
+          665,
+          24
+        ],
+        [
+          666,
+          24
+        ],
+        [
+          668,
+          24
+        ],
+        [
+          668,
+          24
+        ],
+        [
+          687,
+          24
+        ],
+        [
+          1007,
+          24
+        ]
+      ]
+    },
+    {
+      "file": "programs/pump/src/migrate.rs",
+      "dep_count": 4,
+      "cand_count": 4,
+      "dep_lines": [
+        [
+          6006,
+          251
+        ],
+        [
+          6024,
+          280
+        ],
+        [
+          6024,
+          282
+        ],
+        [
+          6027,
+          527
+        ]
+      ],
+      "cand_lines": [
+        [
+          286,
+          28
+        ],
+        [
+          6006,
+          47
+        ],
+        [
+          6024,
+          280
+        ],
+        [
+          6024,
+          282
+        ]
+      ]
+    },
+    {
+      "file": "programs/pump/src/migrate_v2.rs",
+      "dep_count": 8,
+      "cand_count": 7,
+      "dep_lines": [
+        [
+          335,
+          31
+        ],
+        [
+          2006,
+          243
+        ],
+        [
+          6006,
+          249
+        ],
+        [
+          6024,
+          309
+        ],
+        [
+          6024,
+          313
+        ],
+        [
+          6024,
+          326
+        ],
+        [
+          6027,
+          658
+        ],
+        [
+          6063,
+          747
+        ]
+      ],
+      "cand_lines": [
+        [
+          329,
+          31
+        ],
+        [
+          2006,
+          55
+        ],
+        [
+          6006,
+          55
+        ],
+        [
+          6024,
+          309
+        ],
+        [
+          6024,
+          313
+        ],
+        [
+          6024,
+          326
+        ],
+        [
+          6110,
+          20
+        ]
+      ]
+    },
+    {
+      "file": "programs/pump/src/multi_hop_curve_swap.rs",
+      "dep_count": 20,
+      "cand_count": 43,
+      "dep_lines": [
+        [
+          262,
+          41
+        ],
+        [
+          546,
+          41
+        ],
+        [
+          590,
+          41
+        ],
+        [
+          599,
+          41
+        ],
+        [
+          686,
+          41
+        ],
+        [
+          2006,
+          369
+        ],
+        [
+          6010,
+          359
+        ],
+        [
+          6020,
+          208
+        ],
+        [
+          6024,
+          259
+        ],
+        [
+          6024,
+          571
+        ],
+        [
+          6024,
+          624
+        ],
+        [
+          6024,
+          692
+        ]
+      ],
+      "cand_lines": [
+        [
+          64,
+          41
+        ],
+        [
+          64,
+          41
+        ],
+        [
+          65,
+          41
+        ],
+        [
+          65,
+          41
+        ],
+        [
+          68,
+          41
+        ],
+        [
+          68,
+          41
+        ],
+        [
+          114,
+          41
+        ],
+        [
+          163,
+          41
+        ],
+        [
+          184,
+          41
+        ],
+        [
+          185,
+          41
+        ],
+        [
+          188,
+          41
+        ],
+        [
+          256,
+          41
+        ]
+      ]
+    },
+    {
+      "file": "programs/pump/src/nested_create.rs",
+      "dep_count": 0,
+      "cand_count": 31,
+      "dep_lines": [],
+      "cand_lines": [
+        [
+          69,
+          34
+        ],
+        [
+          87,
+          34
+        ],
+        [
+          88,
+          34
+        ],
+        [
+          94,
+          34
+        ],
+        [
+          95,
+          34
+        ],
+        [
+          99,
+          34
+        ],
+        [
+          128,
+          34
+        ],
+        [
+          132,
+          34
+        ],
+        [
+          186,
+          34
+        ],
+        [
+          6024,
+          19
+        ],
+        [
+          6026,
+          147
+        ],
+        [
+          6026,
+          150
+        ]
+      ]
+    },
+    {
+      "file": "programs/pump/src/pump_quote.rs",
+      "dep_count": 31,
+      "cand_count": 0,
+      "dep_lines": [
+        [
+          378,
+          31
+        ],
+        [
+          415,
+          31
+        ],
+        [
+          6024,
+          61
+        ],
+        [
+          6024,
+          104
+        ],
+        [
+          6024,
+          117
+        ],
+        [
+          6024,
+          119
+        ],
+        [
+          6024,
+          122
+        ],
+        [
+          6024,
+          134
+        ],
+        [
+          6024,
+          137
+        ],
+        [
+          6024,
+          199
+        ],
+        [
+          6024,
+          212
+        ],
+        [
+          6024,
+          222
+        ]
+      ],
+      "cand_lines": []
+    },
+    {
+      "file": "programs/pump/src/quote_control/initialize_quote_control.rs",
+      "dep_count": 1,
+      "cand_count": 1,
+      "dep_lines": [
+        [
+          4101,
+          7
+        ]
+      ],
+      "cand_lines": [
+        [
+          4101,
+          5
+        ]
+      ]
+    },
+    {
+      "file": "programs/pump/src/quote_control/state.rs",
+      "dep_count": 13,
+      "cand_count": 10,
+      "dep_lines": [
+        [
+          3002,
+          16
+        ],
+        [
+          6024,
+          52
+        ],
+        [
+          6066,
+          82
+        ],
+        [
+          6067,
+          77
+        ],
+        [
+          6068,
+          99
+        ],
+        [
+          6068,
+          113
+        ],
+        [
+          6069,
+          62
+        ],
+        [
+          6069,
+          67
+        ],
+        [
+          6069,
+          72
+        ],
+        [
+          6069,
+          92
+        ],
+        [
+          6075,
+          145
+        ],
+        [
+          6075,
+          146
+        ]
+      ],
+      "cand_lines": [
+        [
+          3002,
+          16
+        ],
+        [
+          6024,
+          52
+        ],
+        [
+          6066,
+          82
+        ],
+        [
+          6067,
+          77
+        ],
+        [
+          6068,
+          99
+        ],
+        [
+          6068,
+          113
+        ],
+        [
+          6069,
+          62
+        ],
+        [
+          6069,
+          67
+        ],
+        [
+          6069,
+          72
+        ],
+        [
+          6069,
+          92
+        ]
+      ]
+    },
+    {
+      "file": "programs/pump/src/quote_control/update_quote_control_mints.rs",
+      "dep_count": 1,
+      "cand_count": 2,
+      "dep_lines": [
+        [
+          6024,
+          71
+        ]
+      ],
+      "cand_lines": [
+        [
+          71,
+          61
+        ],
+        [
+          71,
+          61
+        ]
+      ]
+    },
+    {
+      "file": "programs/pump/src/sell.rs",
+      "dep_count": 9,
+      "cand_count": 3,
+      "dep_lines": [
+        [
+          85,
+          25
+        ],
+        [
+          107,
+          25
+        ],
+        [
+          114,
+          25
+        ],
+        [
+          6062,
+          145
+        ],
+        [
+          6072,
+          23
+        ],
+        [
+          6073,
+          33
+        ],
+        [
+          6073,
+          81
+        ],
+        [
+          6074,
+          126
+        ],
+        [
+          6074,
+          133
+        ]
+      ],
+      "cand_lines": [
+        [
+          3001,
+          18
+        ],
+        [
+          3002,
+          18
+        ],
+        [
+          3003,
+          18
+        ]
+      ]
+    },
+    {
+      "file": "programs/pump/src/sell_v2.rs",
+      "dep_count": 10,
+      "cand_count": 16,
+      "dep_lines": [
+        [
+          260,
+          28
+        ],
+        [
+          379,
+          28
+        ],
+        [
+          4101,
+          32
+        ],
+        [
+          6005,
+          243
+        ],
+        [
+          6022,
+          245
+        ],
+        [
+          6023,
+          247
+        ],
+        [
+          6024,
+          366
+        ],
+        [
+          6024,
+          368
+        ],
+        [
+          6024,
+          386
+        ],
+        [
+          6025,
+          341
+        ]
+      ],
+      "cand_lines": [
+        [
+          60,
+          28
+        ],
+        [
+          60,
+          28
+        ],
+        [
+          64,
+          28
+        ],
+        [
+          65,
+          28
+        ],
+        [
+          368,
+          28
+        ],
+        [
+          4101,
+          8
+        ],
+        [
+          6004,
+          423
+        ],
+        [
+          6005,
+          58
+        ],
+        [
+          6022,
+          58
+        ],
+        [
+          6023,
+          58
+        ],
+        [
+          6024,
+          49
+        ],
+        [
+          6024,
+          50
+        ]
+      ]
+    },
+    {
+      "file": "programs/pump/src/set_params.rs",
+      "dep_count": 0,
+      "cand_count": 10,
+      "dep_lines": [],
+      "cand_lines": [
+        [
+          18,
+          31
+        ],
+        [
+          19,
+          31
+        ],
+        [
+          20,
+          31
+        ],
+        [
+          23,
+          31
+        ],
+        [
+          24,
+          31
+        ],
+        [
+          2005,
+          15
+        ],
+        [
+          6011,
+          17
+        ],
+        [
+          6027,
+          13
+        ],
+        [
+          6028,
+          15
+        ],
+        [
+          6029,
+          16
+        ]
+      ]
+    },
+    {
+      "file": "programs/pump/src/set_reserved_fee_recipients.rs",
+      "dep_count": 3,
+      "cand_count": 0,
+      "dep_lines": [
+        [
+          6027,
+          40
+        ],
+        [
+          6028,
+          60
+        ],
+        [
+          6061,
+          121
+        ]
+      ],
+      "cand_lines": []
+    },
+    {
+      "file": "programs/pump/src/sweep_fees.rs",
+      "dep_count": 2,
+      "cand_count": 1,
+      "dep_lines": [
+        [
+          2006,
+          145
+        ],
+        [
+          6000,
+          123
+        ]
+      ],
+      "cand_lines": [
+        [
+          2006,
+          28
+        ]
+      ]
+    },
+    {
+      "file": "programs/pump/src/token_incentives/claim_token_incentives.rs",
+      "dep_count": 4,
+      "cand_count": 0,
+      "dep_lines": [
+        [
+          333,
+          60
+        ],
+        [
+          342,
+          60
+        ],
+        [
+          6010,
+          310
+        ],
+        [
+          6064,
+          305
+        ]
+      ],
+      "cand_lines": []
+    },
+    {
+      "file": "programs/pump/src/token_incentives/init_user_volume_accumulator.rs",
+      "dep_count": 1,
+      "cand_count": 0,
+      "dep_lines": [
+        [
+          4101,
+          8
+        ]
+      ],
+      "cand_lines": []
+    },
+    {
+      "file": "programs/pump/src/token_incentives/volume_accumulator.rs",
+      "dep_count": 12,
+      "cand_count": 10,
+      "dep_lines": [
+        [
+          3002,
+          8
+        ],
+        [
+          3002,
+          19
+        ],
+        [
+          6025,
+          103
+        ],
+        [
+          6031,
+          359
+        ],
+        [
+          6032,
+          369
+        ],
+        [
+          6033,
+          371
+        ],
+        [
+          6034,
+          373
+        ],
+        [
+          6035,
+          394
+        ],
+        [
+          6036,
+          297
+        ],
+        [
+          6037,
+          309
+        ],
+        [
+          6037,
+          337
+        ],
+        [
+          6038,
+          338
+        ]
+      ],
+      "cand_lines": [
+        [
+          154,
+          56
+        ],
+        [
+          183,
+          56
+        ],
+        [
+          6025,
+          67
+        ],
+        [
+          6031,
+          136
+        ],
+        [
+          6032,
+          141
+        ],
+        [
+          6033,
+          142
+        ],
+        [
+          6034,
+          149
+        ],
+        [
+          6036,
+          161
+        ],
+        [
+          6037,
+          171
+        ],
+        [
+          6037,
+          182
+        ]
+      ]
+    },
+    {
+      "file": "programs/pump/src/trade_types.rs",
+      "dep_count": 0,
+      "cand_count": 2,
+      "dep_lines": [],
+      "cand_lines": [
+        [
+          6024,
+          334
+        ],
+        [
+          6024,
+          347
+        ]
+      ]
+    },
+    {
+      "file": "programs/pump/src/trade_v3.rs",
+      "dep_count": 49,
+      "cand_count": 66,
+      "dep_lines": [
+        [
+          188,
+          29
+        ],
+        [
+          326,
+          29
+        ],
+        [
+          842,
+          29
+        ],
+        [
+          891,
+          29
+        ],
+        [
+          926,
+          29
+        ],
+        [
+          935,
+          29
+        ],
+        [
+          971,
+          29
+        ],
+        [
+          993,
+          29
+        ],
+        [
+          1001,
+          29
+        ],
+        [
+          1148,
+          29
+        ],
+        [
+          4101,
+          38
+        ],
+        [
+          6004,
+          180
+        ]
+      ],
+      "cand_lines": [
+        [
+          91,
+          29
+        ],
+        [
+          91,
+          29
+        ],
+        [
+          384,
+          29
+        ],
+        [
+          811,
+          29
+        ],
+        [
+          811,
+          29
+        ],
+        [
+          811,
+          29
+        ],
+        [
+          830,
+          29
+        ],
+        [
+          830,
+          29
+        ],
+        [
+          833,
+          29
+        ],
+        [
+          905,
+          29
+        ],
+        [
+          909,
+          29
+        ],
+        [
+          909,
+          29
+        ]
+      ]
+    },
+    {
+      "file": "programs/pump/src/util/constant_product.rs",
+      "dep_count": 3,
+      "cand_count": 0,
+      "dep_lines": [
+        [
+          6024,
+          13
+        ],
+        [
+          6024,
+          17
+        ],
+        [
+          6026,
+          19
+        ]
+      ],
+      "cand_lines": []
+    },
+    {
+      "file": "programs/pump/src/util/fee.rs",
+      "dep_count": 6,
+      "cand_count": 4,
+      "dep_lines": [
+        [
+          6024,
+          15
+        ],
+        [
+          6024,
+          17
+        ],
+        [
+          6025,
+          34
+        ],
+        [
+          6026,
+          19
+        ],
+        [
+          6096,
+          162
+        ],
+        [
+          6097,
+          183
+        ]
+      ],
+      "cand_lines": [
+        [
+          6024,
+          12
+        ],
+        [
+          6024,
+          14
+        ],
+        [
+          6025,
+          5
+        ],
+        [
+          6026,
+          16
+        ]
+      ]
+    },
+    {
+      "file": "programs/pump/src/util/transfer_fee.rs",
+      "dep_count": 4,
+      "cand_count": 0,
+      "dep_lines": [
+        [
+          6024,
+          48
+        ],
+        [
+          6024,
+          56
+        ],
+        [
+          6024,
+          66
+        ],
+        [
+          6063,
+          31
+        ]
+      ],
+      "cand_lines": []
+    },
+    {
+      "file": "programs/pump/src/volume_sync.rs",
+      "dep_count": 0,
+      "cand_count": 1,
+      "dep_lines": [],
+      "cand_lines": [
+        [
+          3002,
+          2
+        ]
+      ]
+    }
+  ],
+  "missing_inline": [
+    {
+      "file": "programs/pump/src/admin_set_idl_authority.rs",
+      "line": 90,
+      "col": 44
+    },
+    {
+      "file": "programs/pump/src/admin_set_idl_authority.rs",
+      "line": 6010,
+      "col": 72
+    },
+    {
+      "file": "programs/pump/src/admin_set_idl_authority.rs",
+      "line": 6010,
+      "col": 79
+    },
+    {
+      "file": "programs/pump/src/buy.rs",
+      "line": 57,
+      "col": 24
+    },
+    {
+      "file": "programs/pump/src/buy.rs",
+      "line": 59,
+      "col": 24
+    },
+    {
+      "file": "programs/pump/src/buy.rs",
+      "line": 92,
+      "col": 24
+    },
+    {
+      "file": "programs/pump/src/buy.rs",
+      "line": 110,
+      "col": 24
+    },
+    {
+      "file": "programs/pump/src/buy.rs",
+      "line": 133,
+      "col": 24
+    },
+    {
+      "file": "programs/pump/src/buy.rs",
+      "line": 143,
+      "col": 24
+    },
+    {
+      "file": "programs/pump/src/buy.rs",
+      "line": 151,
+      "col": 24
+    },
+    {
+      "file": "programs/pump/src/buy.rs",
+      "line": 6005,
+      "col": 53
+    },
+    {
+      "file": "programs/pump/src/buy_v2.rs",
+      "line": 88,
+      "col": 27
+    },
+    {
+      "file": "programs/pump/src/buy_v2.rs",
+      "line": 369,
+      "col": 27
+    },
+    {
+      "file": "programs/pump/src/buy_v2.rs",
+      "line": 494,
+      "col": 27
+    },
+    {
+      "file": "programs/pump/src/buy_v2.rs",
+      "line": 780,
+      "col": 27
+    },
+    {
+      "file": "programs/pump/src/buy_v2.rs",
+      "line": 873,
+      "col": 27
+    },
+    {
+      "file": "programs/pump/src/buy_v2.rs",
+      "line": 907,
+      "col": 27
+    },
+    {
+      "file": "programs/pump/src/buy_v2.rs",
+      "line": 921,
+      "col": 27
+    },
+    {
+      "file": "programs/pump/src/buy_v2.rs",
+      "line": 967,
+      "col": 27
+    },
+    {
+      "file": "programs/pump/src/buy_v2.rs",
+      "line": 979,
+      "col": 27
+    },
+    {
+      "file": "programs/pump/src/buy_v2.rs",
+      "line": 986,
+      "col": 27
+    },
+    {
+      "file": "programs/pump/src/buy_v2.rs",
+      "line": 997,
+      "col": 27
+    },
+    {
+      "file": "programs/pump/src/buy_v2.rs",
+      "line": 2006,
+      "col": 55
+    },
+    {
+      "file": "programs/pump/src/buy_v2.rs",
+      "line": 3012,
+      "col": 60
+    },
+    {
+      "file": "programs/pump/src/buy_v2.rs",
+      "line": 4101,
+      "col": 129
+    },
+    {
+      "file": "programs/pump/src/buy_v2.rs",
+      "line": 6004,
+      "col": 116
+    },
+    {
+      "file": "programs/pump/src/buy_v2.rs",
+      "line": 6005,
+      "col": 345
+    },
+    {
+      "file": "programs/pump/src/buy_v2.rs",
+      "line": 6005,
+      "col": 767
+    },
+    {
+      "file": "programs/pump/src/buy_v2.rs",
+      "line": 6010,
+      "col": 81
+    },
+    {
+      "file": "programs/pump/src/buy_v2.rs",
+      "line": 6010,
+      "col": 109
+    },
+    {
+      "file": "programs/pump/src/buy_v2.rs",
+      "line": 6010,
+      "col": 121
+    },
+    {
+      "file": "programs/pump/src/buy_v2.rs",
+      "line": 6020,
+      "col": 354
+    },
+    {
+      "file": "programs/pump/src/buy_v2.rs",
+      "line": 6020,
+      "col": 769
+    },
+    {
+      "file": "programs/pump/src/buy_v2.rs",
+      "line": 6021,
+      "col": 356
+    },
+    {
+      "file": "programs/pump/src/buy_v2.rs",
+      "line": 6024,
+      "col": 949
+    },
+    {
+      "file": "programs/pump/src/buy_v2.rs",
+      "line": 6041,
+      "col": 771
+    },
+    {
+      "file": "programs/pump/src/create_v2.rs",
+      "line": 220,
+      "col": 30
+    },
+    {
+      "file": "programs/pump/src/create_v2.rs",
+      "line": 243,
+      "col": 30
+    },
+    {
+      "file": "programs/pump/src/create_v2.rs",
+      "line": 258,
+      "col": 30
+    },
+    {
+      "file": "programs/pump/src/create_v2.rs",
+      "line": 758,
+      "col": 30
+    }
+  ],
+  "extra_inline": [
+    {
+      "file": "programs/pump/src/admin_set_idl_authority.rs",
+      "line": 6010,
+      "col": 28
+    },
+    {
+      "file": "programs/pump/src/admin_set_idl_authority.rs",
+      "line": 6010,
+      "col": 30
+    },
+    {
+      "file": "programs/pump/src/buy.rs",
+      "line": 4101,
+      "col": 7
+    },
+    {
+      "file": "programs/pump/src/buy_v2.rs",
+      "line": 69,
+      "col": 27
+    },
+    {
+      "file": "programs/pump/src/buy_v2.rs",
+      "line": 74,
+      "col": 27
+    },
+    {
+      "file": "programs/pump/src/buy_v2.rs",
+      "line": 75,
+      "col": 27
+    },
+    {
+      "file": "programs/pump/src/buy_v2.rs",
+      "line": 87,
+      "col": 27
+    },
+    {
+      "file": "programs/pump/src/buy_v2.rs",
+      "line": 501,
+      "col": 27
+    },
+    {
+      "file": "programs/pump/src/buy_v2.rs",
+      "line": 882,
+      "col": 27
+    },
+    {
+      "file": "programs/pump/src/buy_v2.rs",
+      "line": 996,
+      "col": 27
+    },
+    {
+      "file": "programs/pump/src/buy_v2.rs",
+      "line": 1061,
+      "col": 27
+    },
+    {
+      "file": "programs/pump/src/buy_v2.rs",
+      "line": 2006,
+      "col": 1051
+    },
+    {
+      "file": "programs/pump/src/buy_v2.rs",
+      "line": 3012,
+      "col": 1053
+    },
+    {
+      "file": "programs/pump/src/buy_v2.rs",
+      "line": 4101,
+      "col": 8
+    },
+    {
+      "file": "programs/pump/src/buy_v2.rs",
+      "line": 6004,
+      "col": 1037
+    },
+    {
+      "file": "programs/pump/src/buy_v2.rs",
+      "line": 6005,
+      "col": 61
+    },
+    {
+      "file": "programs/pump/src/buy_v2.rs",
+      "line": 6010,
+      "col": 1058
+    },
+    {
+      "file": "programs/pump/src/buy_v2.rs",
+      "line": 6020,
+      "col": 62
+    },
+    {
+      "file": "programs/pump/src/buy_v2.rs",
+      "line": 6020,
+      "col": 64
+    },
+    {
+      "file": "programs/pump/src/buy_v2.rs",
+      "line": 6021,
+      "col": 65
+    },
+    {
+      "file": "programs/pump/src/buy_v2.rs",
+      "line": 6024,
+      "col": 50
+    },
+    {
+      "file": "programs/pump/src/buy_v2.rs",
+      "line": 6024,
+      "col": 51
+    },
+    {
+      "file": "programs/pump/src/buy_v2.rs",
+      "line": 6025,
+      "col": 52
+    },
+    {
+      "file": "programs/pump/src/buy_v2.rs",
+      "line": 6041,
+      "col": 62
+    },
+    {
+      "file": "programs/pump/src/buy_v2.rs",
+      "line": 6057,
+      "col": 69
+    },
+    {
+      "file": "programs/pump/src/buy_v2.rs",
+      "line": 6062,
+      "col": 68
+    },
+    {
+      "file": "programs/pump/src/cashback.rs",
+      "line": 51,
+      "col": 29
+    },
+    {
+      "file": "programs/pump/src/cashback.rs",
+      "line": 52,
+      "col": 29
+    },
+    {
+      "file": "programs/pump/src/cashback.rs",
+      "line": 6010,
+      "col": 44
+    },
+    {
+      "file": "programs/pump/src/cashback.rs",
+      "line": 6024,
+      "col": 38
+    },
+    {
+      "file": "programs/pump/src/create.rs",
+      "line": 4101,
+      "col": 6
+    },
+    {
+      "file": "programs/pump/src/create.rs",
+      "line": 6030,
+      "col": 30
+    },
+    {
+      "file": "programs/pump/src/create_v2.rs",
+      "line": 53,
+      "col": 30
+    },
+    {
+      "file": "programs/pump/src/create_v2.rs",
+      "line": 54,
+      "col": 30
+    },
+    {
+      "file": "programs/pump/src/create_v2.rs",
+      "line": 59,
+      "col": 30
+    },
+    {
+      "file": "programs/pump/src/create_v2.rs",
+      "line": 61,
+      "col": 30
+    },
+    {
+      "file": "programs/pump/src/create_v2.rs",
+      "line": 63,
+      "col": 30
+    },
+    {
+      "file": "programs/pump/src/create_v2.rs",
+      "line": 64,
+      "col": 30
+    },
+    {
+      "file": "programs/pump/src/create_v2.rs",
+      "line": 72,
+      "col": 30
+    },
+    {
+      "file": "programs/pump/src/create_v2.rs",
+      "line": 73,
+      "col": 30
+    }
+  ],
+  "missing_paths": [
+    "programs/pump/src/creator/distribute_creator_fee_v2.rs",
+    "programs/pump/src/creator/distribute_creator_fees.rs",
+    "programs/pump/src/creator/set_creator.rs",
+    "programs/pump/src/creator/set_metaplex_creator.rs",
+    "programs/pump/src/pump_quote.rs",
+    "programs/pump/src/set_reserved_fee_recipients.rs",
+    "programs/pump/src/token_incentives/claim_token_incentives.rs",
+    "programs/pump/src/token_incentives/init_user_volume_accumulator.rs",
+    "programs/pump/src/util/constant_product.rs",
+    "programs/pump/src/util/transfer_fee.rs"
+  ],
+  "extra_paths": [
+    "programs/pump/src/cashback.rs",
+    "programs/pump/src/create.rs",
+    "programs/pump/src/curve_quote_payments.rs",
+    "programs/pump/src/distribution.rs",
+    "programs/pump/src/fee_cpi.rs",
+    "programs/pump/src/global_init.rs",
+    "programs/pump/src/nested_create.rs",
+    "programs/pump/src/set_creator.rs",
+    "programs/pump/src/set_params.rs",
+    "programs/pump/src/trade_types.rs",
+    "programs/pump/src/v2_recipient_payments.rs",
+    "programs/pump/src/volume_sync.rs"
+  ],
+  "missing_data_locations": [
+    {
+      "file": "programs/pump/src/admin_set_idl_authority.rs",
+      "line": 86,
+      "col": 13
+    },
+    {
+      "file": "programs/pump/src/admin_set_idl_authority.rs",
+      "line": 101,
+      "col": 45
+    },
+    {
+      "file": "programs/pump/src/create_v2.rs",
+      "line": 385,
+      "col": 29
+    },
+    {
+      "file": "programs/pump/src/create_v2.rs",
+      "line": 426,
+      "col": 64
+    },
+    {
+      "file": "programs/pump/src/creator/distribute_creator_fee_v2.rs",
+      "line": 342,
+      "col": 22
+    },
+    {
+      "file": "programs/pump/src/creator/distribute_creator_fees.rs",
+      "line": 217,
+      "col": 1
+    },
+    {
+      "file": "programs/pump/src/creator/distribute_creator_fees.rs",
+      "line": 327,
+      "col": 22
+    },
+    {
+      "file": "programs/pump/src/creator/distribute_fee_to_holders.rs",
+      "line": 114,
+      "col": 22
+    },
+    {
+      "file": "programs/pump/src/creator/distribute_fee_to_holders.rs",
+      "line": 121,
+      "col": 44
+    },
+    {
+      "file": "programs/pump/src/creator/set_creator.rs",
+      "line": 63,
+      "col": 31
+    },
+    {
+      "file": "programs/pump/src/lib.rs",
+      "line": 83,
+      "col": 1
+    },
+    {
+      "file": "programs/pump/src/lib.rs",
+      "line": 84,
+      "col": 1
+    },
+    {
+      "file": "programs/pump/src/lib.rs",
+      "line": 1442,
+      "col": 62
+    },
+    {
+      "file": "programs/pump/src/lib.rs",
+      "line": 1443,
+      "col": 40
+    },
+    {
+      "file": "programs/pump/src/lib.rs",
+      "line": 1477,
+      "col": 42
+    },
+    {
+      "file": "programs/pump/src/lib.rs",
+      "line": 1478,
+      "col": 40
+    },
+    {
+      "file": "programs/pump/src/lib.rs",
+      "line": 1815,
+      "col": 1
+    },
+    {
+      "file": "programs/pump/src/lib.rs",
+      "line": 1939,
+      "col": 14
+    },
+    {
+      "file": "programs/pump/src/lib.rs",
+      "line": 2639,
+      "col": 1
+    },
+    {
+      "file": "programs/pump/src/migrate_v2.rs",
+      "line": 820,
+      "col": 43
+    }
+  ],
+  "inventory": {
+    "deployed": {
+      "n_inline": 387,
+      "n_data_loc": 98,
+      "n_paths": 71,
+      "n_error_names": 6
+    },
+    "candidate": {
+      "n_inline": 408,
+      "n_data_loc": 150,
+      "n_paths": 74,
+      "n_error_names": 9
+    }
+  }
+}
