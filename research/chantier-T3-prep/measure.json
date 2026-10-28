@@ -1,0 +1,20 @@
+{
+  "base": {
+    "profile": "s7p",
+    "original_windows": 1035,
+    "candidate_windows": 1012,
+    "matched": 802,
+    "exact": 161,
+    "unmatched": 233,
+    "call_consistent_original": 694,
+    "candidate_sha256": "7148f08aef7e8f4a67a62eb70d2967ed1b66f7cd6226fdd6157a3419bc880fd2",
+    "symbols_sha256": "6db799556477f2f1af2fa4ac0f5dc10ab88f74626f82a6f1946e6b0c1a374722"
+  },
+  "after": {
+    "note": "attribution packet; source and binary unchanged",
+    "matched": 802,
+    "exact": 161,
+    "lost_matched": [],
+    "lost_raw": []
+  }
+}

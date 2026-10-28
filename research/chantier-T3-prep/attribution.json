@@ -1,0 +1,1406 @@
+[
+  {
+    "kind": "try_accounts",
+    "struct": "migrate_v2::MigrateV2",
+    "cand": "0x17be60",
+    "cand_sz": 22840,
+    "pairing": "size_gap",
+    "nearest_dep": "0xe62a8",
+    "nearest_dep_sz": 22520,
+    "size_delta": 320,
+    "cause": "size_mismatch_field_or_macro"
+  },
+  {
+    "kind": "try_accounts",
+    "struct": "create_v2::CreateV2",
+    "cand": "0x6e500",
+    "cand_sz": 14904,
+    "pairing": "same_size",
+    "dep": "0xb0158",
+    "dep_sz": 14904,
+    "norm_diffs": 1,
+    "cats": {
+      "other_imm": 1
+    },
+    "dep_already_matched": false,
+    "samples": {
+      "other_imm": [
+        {
+          "off": 1664,
+          "opc_c": 98,
+          "frame_c": 65128,
+          "imm_c": 14,
+          "opc_d": 98,
+          "frame_d": 65128,
+          "imm_d": 27
+        }
+      ]
+    },
+    "cause": "constraint_location_line"
+  },
+  {
+    "kind": "try_accounts",
+    "struct": "distribution::DistributeCreatorFeesV2",
+    "cand": "0x1833c8",
+    "cand_sz": 9672,
+    "pairing": "size_gap",
+    "nearest_dep": "0x52660",
+    "nearest_dep_sz": 9776,
+    "size_delta": -104,
+    "cause": "size_mismatch_field_or_macro"
+  },
+  {
+    "kind": "try_accounts",
+    "struct": "mayhem_virtual_params::SetMayhemVirtualParams",
+    "cand": "0x179cc8",
+    "cand_sz": 8600,
+    "pairing": "size_gap",
+    "nearest_dep": "0x6cd78",
+    "nearest_dep_sz": 8544,
+    "size_delta": 56,
+    "cause": "size_mismatch_field_or_macro"
+  },
+  {
+    "kind": "try_accounts",
+    "struct": "buy_v2::BuyV2",
+    "cand": "0x68670",
+    "cand_sz": 8128,
+    "pairing": "same_size",
+    "dep": "0xa9eb8",
+    "dep_sz": 8128,
+    "norm_diffs": 1,
+    "cats": {
+      "other_imm": 1
+    },
+    "dep_already_matched": false,
+    "samples": {
+      "other_imm": [
+        {
+          "off": 3584,
+          "opc_c": 98,
+          "frame_c": 64840,
+          "imm_c": 8,
+          "opc_d": 98,
+          "frame_d": 64840,
+          "imm_d": 129
+        }
+      ]
+    },
+    "cause": "constraint_location_line"
+  },
+  {
+    "kind": "try_accounts",
+    "struct": "sell_v2::SellV2",
+    "cand": "0x9c320",
+    "cand_sz": 8128,
+    "pairing": "same_size",
+    "dep": "0xebaa0",
+    "dep_sz": 8128,
+    "norm_diffs": 1,
+    "cats": {
+      "other_imm": 1
+    },
+    "dep_already_matched": false,
+    "samples": {
+      "other_imm": [
+        {
+          "off": 3584,
+          "opc_c": 98,
+          "frame_c": 64840,
+          "imm_c": 8,
+          "opc_d": 98,
+          "frame_d": 64840,
+          "imm_d": 32
+        }
+      ]
+    },
+    "cause": "constraint_location_line"
+  },
+  {
+    "kind": "try_accounts",
+    "struct": "trade::SellV3",
+    "cand": "0xb0228",
+    "cand_sz": 8128,
+    "pairing": "same_size",
+    "dep": "0x105b78",
+    "dep_sz": 8128,
+    "norm_diffs": 1,
+    "cats": {
+      "other_imm": 1
+    },
+    "dep_already_matched": false,
+    "samples": {
+      "other_imm": [
+        {
+          "off": 3584,
+          "opc_c": 98,
+          "frame_c": 64840,
+          "imm_c": 7,
+          "opc_d": 98,
+          "frame_d": 64840,
+          "imm_d": 38
+        }
+      ]
+    },
+    "cause": "constraint_location_line"
+  },
+  {
+    "kind": "try_accounts",
+    "struct": "legacy_buy::LegacyBuy",
+    "cand": "0x105280",
+    "cand_sz": 8128,
+    "pairing": "same_size",
+    "dep": "0x172110",
+    "dep_sz": 8128,
+    "norm_diffs": 1,
+    "cats": {
+      "other_imm": 1
+    },
+    "dep_already_matched": false,
+    "samples": {
+      "other_imm": [
+        {
+          "off": 3584,
+          "opc_c": 98,
+          "frame_c": 64840,
+          "imm_c": 7,
+          "opc_d": 98,
+          "frame_d": 64840,
+          "imm_d": 2871
+        }
+      ]
+    },
+    "cause": "constraint_location_line"
+  },
+  {
+    "kind": "try_accounts",
+    "struct": "InitUserVolume",
+    "cand": "0x1a6fd0",
+    "cand_sz": 7824,
+    "pairing": "same_size",
+    "dep": "0xfdf20",
+    "dep_sz": 7824,
+    "norm_diffs": 2,
+    "cats": {
+      "other_imm": 2
+    },
+    "dep_already_matched": false,
+    "samples": {
+      "other_imm": [
+        {
+          "off": 2768,
+          "opc_c": 98,
+          "frame_c": 65064,
+          "imm_c": 465,
+          "opc_d": 98,
+          "frame_d": 65064,
+          "imm_d": 8
+        },
+        {
+          "off": 2776,
+          "opc_c": 122,
+          "frame_c": 65056,
+          "imm_c": 24,
+          "opc_d": 122,
+          "frame_d": 65056,
+          "imm_d": 66
+        }
+      ]
+    },
+    "cause": "constraint_location_line"
+  },
+  {
+    "kind": "try_accounts",
+    "struct": "holder_distribution::DistributeFeeToHolders",
+    "cand": "0x7e3f8",
+    "cand_sz": 7312,
+    "pairing": "size_gap",
+    "nearest_dep": "0xc5650",
+    "nearest_dep_sz": 7344,
+    "size_delta": -32,
+    "cause": "size_mismatch_field_or_macro"
+  },
+  {
+    "kind": "try_accounts",
+    "struct": "create::Create",
+    "cand": "0xfd550",
+    "cand_sz": 6672,
+    "pairing": "same_size",
+    "dep": "0x16a3e0",
+    "dep_sz": 6672,
+    "norm_diffs": 2,
+    "cats": {
+      "other_imm": 2
+    },
+    "dep_already_matched": false,
+    "samples": {
+      "other_imm": [
+        {
+          "off": 2296,
+          "opc_c": 98,
+          "frame_c": 64848,
+          "imm_c": 6,
+          "opc_d": 98,
+          "frame_d": 64848,
+          "imm_d": 2811
+        },
+        {
+          "off": 2304,
+          "opc_c": 122,
+          "frame_c": 64840,
+          "imm_c": 27,
+          "opc_d": 122,
+          "frame_d": 64840,
+          "imm_d": 24
+        }
+      ]
+    },
+    "cause": "constraint_location_line"
+  },
+  {
+    "kind": "try_accounts",
+    "struct": "distribution::DistributeCreatorFees",
+    "cand": "0x181a58",
+    "cand_sz": 6512,
+    "pairing": "size_gap",
+    "nearest_dep": "0xb3b90",
+    "nearest_dep_sz": 6464,
+    "size_delta": 48,
+    "cause": "size_mismatch_field_or_macro"
+  },
+  {
+    "kind": "try_accounts",
+    "struct": "create_v2::CreateV2",
+    "cand": "0x71f38",
+    "cand_sz": 6464,
+    "pairing": "same_size",
+    "dep": "0xb3b90",
+    "dep_sz": 6464,
+    "norm_diffs": 1,
+    "cats": {
+      "other_imm": 1
+    },
+    "dep_already_matched": false,
+    "samples": {
+      "other_imm": [
+        {
+          "off": 2504,
+          "opc_c": 98,
+          "frame_c": 64896,
+          "imm_c": 14,
+          "opc_d": 98,
+          "frame_d": 64896,
+          "imm_d": 27
+        }
+      ]
+    },
+    "cause": "constraint_location_line"
+  },
+  {
+    "kind": "try_accounts",
+    "struct": "create::Create",
+    "cand": "0xfef60",
+    "cand_sz": 6464,
+    "pairing": "same_size",
+    "dep": "0xb3b90",
+    "dep_sz": 6464,
+    "norm_diffs": 2,
+    "cats": {
+      "other_imm": 2
+    },
+    "dep_already_matched": false,
+    "samples": {
+      "other_imm": [
+        {
+          "off": 2504,
+          "opc_c": 98,
+          "frame_c": 64896,
+          "imm_c": 6,
+          "opc_d": 98,
+          "frame_d": 64896,
+          "imm_d": 27
+        },
+        {
+          "off": 2512,
+          "opc_c": 122,
+          "frame_c": 64888,
+          "imm_c": 27,
+          "opc_d": 122,
+          "frame_d": 64888,
+          "imm_d": 30
+        }
+      ]
+    },
+    "cause": "constraint_location_line"
+  },
+  {
+    "kind": "try_accounts",
+    "struct": "quote_control::initialize_quote_control",
+    "cand": "0x8fb58",
+    "cand_sz": 5952,
+    "pairing": "same_size",
+    "dep": "0xdf2d8",
+    "dep_sz": 5952,
+    "norm_diffs": 1,
+    "cats": {
+      "other_imm": 1
+    },
+    "dep_already_matched": false,
+    "samples": {
+      "other_imm": [
+        {
+          "off": 2384,
+          "opc_c": 98,
+          "frame_c": 65080,
+          "imm_c": 5,
+          "opc_d": 98,
+          "frame_d": 65080,
+          "imm_d": 7
+        }
+      ]
+    },
+    "cause": "constraint_location_line"
+  },
+  {
+    "kind": "try_accounts",
+    "struct": "global_init::Initialize",
+    "cand": "0xf8f90",
+    "cand_sz": 5896,
+    "pairing": "same_size",
+    "dep": "0x164e40",
+    "dep_sz": 5896,
+    "norm_diffs": 2,
+    "cats": {
+      "other_imm": 2
+    },
+    "dep_already_matched": false,
+    "samples": {
+      "other_imm": [
+        {
+          "off": 2384,
+          "opc_c": 98,
+          "frame_c": 64384,
+          "imm_c": 3,
+          "opc_d": 98,
+          "frame_d": 64384,
+          "imm_d": 2778
+        },
+        {
+          "off": 2392,
+          "opc_c": 122,
+          "frame_c": 64376,
+          "imm_c": 32,
+          "opc_d": 122,
+          "frame_d": 64376,
+          "imm_d": 24
+        }
+      ]
+    },
+    "cause": "constraint_location_line"
+  },
+  {
+    "kind": "try_accounts",
+    "struct": "multi_hop_curve::CurveHop",
+    "cand": "0x8df80",
+    "cand_sz": 3512,
+    "pairing": "same_size",
+    "dep": "0xdd700",
+    "dep_sz": 3512,
+    "norm_diffs": 3,
+    "cats": {
+      "regalloc": 3
+    },
+    "dep_already_matched": false,
+    "samples": {
+      "regalloc": [
+        {
+          "off": 2544,
+          "opc_c": 191,
+          "frame_c": 0,
+          "imm_c": 0,
+          "opc_d": 191,
+          "frame_d": 0,
+          "imm_d": 0
+        },
+        {
+          "off": 2552,
+          "opc_c": 7,
+          "frame_c": 0,
+          "imm_c": -216,
+          "opc_d": 7,
+          "frame_d": 0,
+          "imm_d": -216
+        },
+        {
+          "off": 2560,
+          "opc_c": 191,
+          "frame_c": 0,
+          "imm_c": 0,
+          "opc_d": 191,
+          "frame_d": 0,
+          "imm_d": 0
+        }
+      ]
+    },
+    "cause": "regalloc_noalias"
+  },
+  {
+    "kind": "dispatch",
+    "struct": "buy",
+    "cand": "0xc4500",
+    "cand_sz": 1776,
+    "pairing": "size_gap",
+    "nearest_dep": "0x12a4e0",
+    "nearest_dep_sz": 1768,
+    "size_delta": 8,
+    "cause": "size_mismatch_field_or_macro"
+  },
+  {
+    "kind": "dispatch",
+    "struct": "buy_exact_sol_in",
+    "cand": "0xc4bf0",
+    "cand_sz": 1776,
+    "pairing": "size_gap",
+    "nearest_dep": "0x12a4e0",
+    "nearest_dep_sz": 1768,
+    "size_delta": 8,
+    "cause": "size_mismatch_field_or_macro"
+  },
+  {
+    "kind": "dispatch",
+    "struct": "distribute_creator_fees_v2",
+    "cand": "0xcb410",
+    "cand_sz": 1736,
+    "pairing": "same_size",
+    "dep": "0x6a1e0",
+    "dep_sz": 1736,
+    "norm_diffs": 199,
+    "cats": {
+      "regalloc": 7,
+      "opcode_shape": 175,
+      "field_offset": 13,
+      "other_imm": 4
+    },
+    "dep_already_matched": false,
+    "samples": {
+      "regalloc": [
+        {
+          "off": 0,
+          "opc_c": 191,
+          "frame_c": 0,
+          "imm_c": 0,
+          "opc_d": 191,
+          "frame_d": 0,
+          "imm_d": 0
+        },
+        {
+          "off": 8,
+          "opc_c": 191,
+          "frame_c": 0,
+          "imm_c": 0,
+          "opc_d": 191,
+          "frame_d": 0,
+          "imm_d": 0
+        },
+        {
+          "off": 16,
+          "opc_c": 191,
+          "frame_c": 0,
+          "imm_c": 0,
+          "opc_d": 191,
+          "frame_d": 0,
+          "imm_d": 0
+        }
+      ],
+      "opcode_shape": [
+        {
+          "off": 24,
+          "opc_c": 191,
+          "frame_c": 0,
+          "imm_c": 0,
+          "opc_d": 37,
+          "frame_d": 34,
+          "imm_d": 107
+        },
+        {
+          "off": 32,
+          "opc_c": 123,
+          "frame_c": 63984,
+          "imm_c": 0,
+          "opc_d": 191,
+          "frame_d": 0,
+          "imm_d": 0
+        },
+        {
+          "off": 40,
+          "opc_c": 24,
+          "frame_c": 0,
+          "imm_c": 0,
+          "opc_d": 7,
+          "frame_d": 0,
+          "imm_d": -120
+        }
+      ],
+      "field_offset": [
+        {
+          "off": 136,
+          "opc_c": 123,
+          "frame_c": 64664,
+          "imm_c": 0,
+          "opc_d": 123,
+          "frame_d": 65496,
+          "imm_d": 0
+        },
+        {
+          "off": 528,
+          "opc_c": 123,
+          "frame_c": 64024,
+          "imm_c": 0,
+          "opc_d": 123,
+          "frame_d": 65312,
+          "imm_d": 0
+        },
+        {
+          "off": 560,
+          "opc_c": 123,
+          "frame_c": 61448,
+          "imm_c": 0,
+          "opc_d": 123,
+          "frame_d": 65296,
+          "imm_d": 0
+        }
+      ],
+      "other_imm": [
+        {
+          "off": 888,
+          "opc_c": 7,
+          "frame_c": 0,
+          "imm_c": -1504,
+          "opc_d": 7,
+          "frame_d": 0,
+          "imm_d": -280
+        },
+        {
+          "off": 1024,
+          "opc_c": 7,
+          "frame_c": 0,
+          "imm_c": -848,
+          "opc_d": 7,
+          "frame_d": 0,
+          "imm_d": -108
+        },
+        {
+          "off": 1112,
+          "opc_c": 183,
+          "frame_c": 0,
+          "imm_c": 0,
+          "opc_d": 183,
+          "frame_d": 0,
+          "imm_d": 32
+        }
+      ]
+    },
+    "cause": "field_order_or_type"
+  },
+  {
+    "kind": "dispatch",
+    "struct": "distribute_creator_fees",
+    "cand": "0xcaf50",
+    "cand_sz": 1216,
+    "pairing": "same_size",
+    "dep": "0x8d108",
+    "dep_sz": 1216,
+    "norm_diffs": 142,
+    "cats": {
+      "regalloc": 1,
+      "opcode_shape": 128,
+      "field_offset": 12,
+      "other_imm": 1
+    },
+    "dep_already_matched": true,
+    "samples": {
+      "regalloc": [
+        {
+          "off": 0,
+          "opc_c": 191,
+          "frame_c": 0,
+          "imm_c": 0,
+          "opc_d": 191,
+          "frame_d": 0,
+          "imm_d": 0
+        }
+      ],
+      "opcode_shape": [
+        {
+          "off": 8,
+          "opc_c": 191,
+          "frame_c": 0,
+          "imm_c": 0,
+          "opc_d": 183,
+          "frame_d": 0,
+          "imm_d": 2
+        },
+        {
+          "off": 16,
+          "opc_c": 191,
+          "frame_c": 0,
+          "imm_c": 0,
+          "opc_d": 21,
+          "frame_d": 146,
+          "imm_d": 0
+        },
+        {
+          "off": 24,
+          "opc_c": 123,
+          "frame_c": 64320,
+          "imm_c": 0,
+          "opc_d": 121,
+          "frame_d": 8,
+          "imm_d": 0
+        }
+      ],
+      "field_offset": [
+        {
+          "off": 272,
+          "opc_c": 123,
+          "frame_c": 64360,
+          "imm_c": 0,
+          "opc_d": 123,
+          "frame_d": 65280,
+          "imm_d": 0
+        },
+        {
+          "off": 352,
+          "opc_c": 123,
+          "frame_c": 65504,
+          "imm_c": 0,
+          "opc_d": 123,
+          "frame_d": 0,
+          "imm_d": 0
+        },
+        {
+          "off": 688,
+          "opc_c": 123,
+          "frame_c": 0,
+          "imm_c": 0,
+          "opc_d": 123,
+          "frame_d": 65200,
+          "imm_d": 0
+        }
+      ],
+      "other_imm": [
+        {
+          "off": 392,
+          "opc_c": 7,
+          "frame_c": 0,
+          "imm_c": -40,
+          "opc_d": 7,
+          "frame_d": 0,
+          "imm_d": 1
+        }
+      ]
+    },
+    "cause": "field_order_or_type"
+  },
+  {
+    "kind": "dispatch",
+    "struct": "set_mayhem_virtual_params",
+    "cand": "0xbf6c8",
+    "cand_sz": 1088,
+    "pairing": "same_size",
+    "dep": "0x1a25b0",
+    "dep_sz": 1088,
+    "norm_diffs": 110,
+    "cats": {
+      "regalloc": 9,
+      "opcode_shape": 93,
+      "other_imm": 5,
+      "field_offset": 3
+    },
+    "dep_already_matched": true,
+    "samples": {
+      "regalloc": [
+        {
+          "off": 0,
+          "opc_c": 191,
+          "frame_c": 0,
+          "imm_c": 0,
+          "opc_d": 191,
+          "frame_d": 0,
+          "imm_d": 0
+        },
+        {
+          "off": 8,
+          "opc_c": 191,
+          "frame_c": 0,
+          "imm_c": 0,
+          "opc_d": 191,
+          "frame_d": 0,
+          "imm_d": 0
+        },
+        {
+          "off": 24,
+          "opc_c": 191,
+          "frame_c": 0,
+          "imm_c": 0,
+          "opc_d": 191,
+          "frame_d": 0,
+          "imm_d": 0
+        }
+      ],
+      "opcode_shape": [
+        {
+          "off": 16,
+          "opc_c": 191,
+          "frame_c": 0,
+          "imm_c": 0,
+          "opc_d": 7,
+          "frame_d": 0,
+          "imm_d": -40
+        },
+        {
+          "off": 64,
+          "opc_c": 98,
+          "frame_c": 64252,
+          "imm_c": -1,
+          "opc_d": 191,
+          "frame_d": 0,
+          "imm_d": 0
+        },
+        {
+          "off": 72,
+          "opc_c": 123,
+          "frame_c": 64264,
+          "imm_c": 0,
+          "opc_d": 24,
+          "frame_d": 0,
+          "imm_d": 0
+        }
+      ],
+      "other_imm": [
+        {
+          "off": 48,
+          "opc_c": 183,
+          "frame_c": 0,
+          "imm_c": 35,
+          "opc_d": 183,
+          "frame_d": 0,
+          "imm_d": 11
+        },
+        {
+          "off": 120,
+          "opc_c": 7,
+          "frame_c": 0,
+          "imm_c": -632,
+          "opc_d": 7,
+          "frame_d": 0,
+          "imm_d": 24
+        },
+        {
+          "off": 232,
+          "opc_c": 7,
+          "frame_c": 0,
+          "imm_c": -1240,
+          "opc_d": 7,
+          "frame_d": 0,
+          "imm_d": 41
+        }
+      ],
+      "field_offset": [
+        {
+          "off": 592,
+          "opc_c": 121,
+          "frame_c": 0,
+          "imm_c": 0,
+          "opc_d": 121,
+          "frame_d": 32,
+          "imm_d": 0
+        },
+        {
+          "off": 664,
+          "opc_c": 121,
+          "frame_c": 64672,
+          "imm_c": 0,
+          "opc_d": 121,
+          "frame_d": 16,
+          "imm_d": 0
+        },
+        {
+          "off": 832,
+          "opc_c": 121,
+          "frame_c": 64240,
+          "imm_c": 0,
+          "opc_d": 121,
+          "frame_d": 16,
+          "imm_d": 0
+        }
+      ]
+    },
+    "cause": "field_order_or_type"
+  },
+  {
+    "kind": "try_deserialize",
+    "struct": "legacy_sell::LegacyFeeConfig",
+    "cand": "0xb2628",
+    "cand_sz": 1048,
+    "pairing": "same_size",
+    "dep": "0x65eb0",
+    "dep_sz": 1048,
+    "norm_diffs": 118,
+    "cats": {
+      "opcode_shape": 105,
+      "regalloc": 1,
+      "field_offset": 11,
+      "other_imm": 1
+    },
+    "dep_already_matched": false,
+    "samples": {
+      "opcode_shape": [
+        {
+          "off": 0,
+          "opc_c": 191,
+          "frame_c": 0,
+          "imm_c": 0,
+          "opc_d": 123,
+          "frame_d": 65384,
+          "imm_d": 0
+        },
+        {
+          "off": 8,
+          "opc_c": 121,
+          "frame_c": 8,
+          "imm_c": 0,
+          "opc_d": 191,
+          "frame_d": 0,
+          "imm_d": 0
+        },
+        {
+          "off": 16,
+          "opc_c": 37,
+          "frame_c": 34,
+          "imm_c": 7,
+          "opc_d": 123,
+          "frame_d": 65376,
+          "imm_d": 0
+        }
+      ],
+      "regalloc": [
+        {
+          "off": 24,
+          "opc_c": 191,
+          "frame_c": 0,
+          "imm_c": 0,
+          "opc_d": 191,
+          "frame_d": 0,
+          "imm_d": 0
+        }
+      ],
+      "field_offset": [
+        {
+          "off": 128,
+          "opc_c": 123,
+          "frame_c": 65496,
+          "imm_c": 0,
+          "opc_d": 123,
+          "frame_d": 65368,
+          "imm_d": 0
+        },
+        {
+          "off": 304,
+          "opc_c": 121,
+          "frame_c": 0,
+          "imm_c": 0,
+          "opc_d": 121,
+          "frame_d": 65520,
+          "imm_d": 0
+        },
+        {
+          "off": 360,
+          "opc_c": 121,
+          "frame_c": 65456,
+          "imm_c": 0,
+          "opc_d": 121,
+          "frame_d": 0,
+          "imm_d": 0
+        }
+      ],
+      "other_imm": [
+        {
+          "off": 352,
+          "opc_c": 5,
+          "frame_c": 85,
+          "imm_c": 0,
+          "opc_d": 5,
+          "frame_d": 69,
+          "imm_d": 0
+        }
+      ]
+    },
+    "cause": "field_order_or_type"
+  },
+  {
+    "kind": "try_deserialize",
+    "struct": "multi_hop_curve::RouteFeeConfig",
+    "cand": "0x14b928",
+    "cand_sz": 1048,
+    "pairing": "same_size",
+    "dep": "0x65eb0",
+    "dep_sz": 1048,
+    "norm_diffs": 118,
+    "cats": {
+      "opcode_shape": 105,
+      "regalloc": 1,
+      "field_offset": 11,
+      "other_imm": 1
+    },
+    "dep_already_matched": false,
+    "samples": {
+      "opcode_shape": [
+        {
+          "off": 0,
+          "opc_c": 191,
+          "frame_c": 0,
+          "imm_c": 0,
+          "opc_d": 123,
+          "frame_d": 65384,
+          "imm_d": 0
+        },
+        {
+          "off": 8,
+          "opc_c": 121,
+          "frame_c": 8,
+          "imm_c": 0,
+          "opc_d": 191,
+          "frame_d": 0,
+          "imm_d": 0
+        },
+        {
+          "off": 16,
+          "opc_c": 37,
+          "frame_c": 34,
+          "imm_c": 7,
+          "opc_d": 123,
+          "frame_d": 65376,
+          "imm_d": 0
+        }
+      ],
+      "regalloc": [
+        {
+          "off": 24,
+          "opc_c": 191,
+          "frame_c": 0,
+          "imm_c": 0,
+          "opc_d": 191,
+          "frame_d": 0,
+          "imm_d": 0
+        }
+      ],
+      "field_offset": [
+        {
+          "off": 128,
+          "opc_c": 123,
+          "frame_c": 65496,
+          "imm_c": 0,
+          "opc_d": 123,
+          "frame_d": 65368,
+          "imm_d": 0
+        },
+        {
+          "off": 304,
+          "opc_c": 121,
+          "frame_c": 0,
+          "imm_c": 0,
+          "opc_d": 121,
+          "frame_d": 65520,
+          "imm_d": 0
+        },
+        {
+          "off": 360,
+          "opc_c": 121,
+          "frame_c": 65456,
+          "imm_c": 0,
+          "opc_d": 121,
+          "frame_d": 0,
+          "imm_d": 0
+        }
+      ],
+      "other_imm": [
+        {
+          "off": 352,
+          "opc_c": 5,
+          "frame_c": 85,
+          "imm_c": 0,
+          "opc_d": 5,
+          "frame_d": 69,
+          "imm_d": 0
+        }
+      ]
+    },
+    "cause": "field_order_or_type"
+  },
+  {
+    "kind": "try_deserialize",
+    "struct": "distribution::SharingConfig",
+    "cand": "0xb2a40",
+    "cand_sz": 744,
+    "pairing": "same_size",
+    "dep": "0x115e70",
+    "dep_sz": 744,
+    "norm_diffs": 2,
+    "cats": {
+      "other_imm": 2
+    },
+    "dep_already_matched": false,
+    "samples": {
+      "other_imm": [
+        {
+          "off": 528,
+          "opc_c": 98,
+          "frame_c": 65288,
+          "imm_c": 17,
+          "opc_d": 98,
+          "frame_d": 65288,
+          "imm_d": 84
+        },
+        {
+          "off": 536,
+          "opc_c": 122,
+          "frame_c": 65280,
+          "imm_c": 33,
+          "opc_d": 122,
+          "frame_d": 65280,
+          "imm_d": 24
+        }
+      ]
+    },
+    "cause": "constraint_location_line"
+  },
+  {
+    "kind": "try_deserialize",
+    "struct": "volume_sync::GlobalVolumeAccumulator",
+    "cand": "0xac178",
+    "cand_sz": 728,
+    "pairing": "same_size",
+    "dep": "0x101170",
+    "dep_sz": 728,
+    "norm_diffs": 2,
+    "cats": {
+      "other_imm": 2
+    },
+    "dep_already_matched": false,
+    "samples": {
+      "other_imm": [
+        {
+          "off": 528,
+          "opc_c": 98,
+          "frame_c": 65288,
+          "imm_c": 2,
+          "opc_d": 98,
+          "frame_d": 65288,
+          "imm_d": 8
+        },
+        {
+          "off": 536,
+          "opc_c": 122,
+          "frame_c": 65280,
+          "imm_c": 32,
+          "opc_d": 122,
+          "frame_d": 65280,
+          "imm_d": 56
+        }
+      ]
+    },
+    "cause": "constraint_location_line"
+  },
+  {
+    "kind": "try_deserialize",
+    "struct": "__private::__idl",
+    "cand": "0x10e4e0",
+    "cand_sz": 728,
+    "pairing": "same_size",
+    "dep": "0x17b780",
+    "dep_sz": 728,
+    "norm_diffs": 1,
+    "cats": {
+      "other_imm": 1
+    },
+    "dep_already_matched": false,
+    "samples": {
+      "other_imm": [
+        {
+          "off": 528,
+          "opc_c": 98,
+          "frame_c": 65288,
+          "imm_c": 66,
+          "opc_d": 98,
+          "frame_d": 65288,
+          "imm_d": 90
+        }
+      ]
+    },
+    "cause": "constraint_location_line"
+  },
+  {
+    "kind": "try_deserialize",
+    "struct": "Global",
+    "cand": "0x198ac8",
+    "cand_sz": 728,
+    "pairing": "same_size",
+    "dep": "0x15fdd0",
+    "dep_sz": 728,
+    "norm_diffs": 1,
+    "cats": {
+      "other_imm": 1
+    },
+    "dep_already_matched": false,
+    "samples": {
+      "other_imm": [
+        {
+          "off": 528,
+          "opc_c": 98,
+          "frame_c": 65288,
+          "imm_c": 183,
+          "opc_d": 98,
+          "frame_d": 65288,
+          "imm_d": 1815
+        }
+      ]
+    },
+    "cause": "constraint_location_line"
+  },
+  {
+    "kind": "try_deserialize",
+    "struct": "UserVolumeAccumulator",
+    "cand": "0x1a4e80",
+    "cand_sz": 728,
+    "pairing": "same_size",
+    "dep": "0x101c20",
+    "dep_sz": 728,
+    "norm_diffs": 2,
+    "cats": {
+      "other_imm": 2
+    },
+    "dep_already_matched": false,
+    "samples": {
+      "other_imm": [
+        {
+          "off": 528,
+          "opc_c": 98,
+          "frame_c": 65288,
+          "imm_c": 461,
+          "opc_d": 98,
+          "frame_d": 65288,
+          "imm_d": 19
+        },
+        {
+          "off": 536,
+          "opc_c": 122,
+          "frame_c": 65280,
+          "imm_c": 24,
+          "opc_d": 122,
+          "frame_d": 65280,
+          "imm_d": 56
+        }
+      ]
+    },
+    "cause": "constraint_location_line"
+  },
+  {
+    "kind": "exit",
+    "struct": "mayhem_virtual_params::SetMayhemVirtualParams",
+    "cand": "0x859c8",
+    "cand_sz": 576,
+    "pairing": "same_size",
+    "dep": "0xcf510",
+    "dep_sz": 576,
+    "norm_diffs": 1,
+    "cats": {
+      "other_imm": 1
+    },
+    "dep_already_matched": false,
+    "samples": {
+      "other_imm": [
+        {
+          "off": 312,
+          "opc_c": 7,
+          "frame_c": 0,
+          "imm_c": 440,
+          "opc_d": 7,
+          "frame_d": 0,
+          "imm_d": 488
+        }
+      ]
+    },
+    "cause": "constraint_location_line"
+  },
+  {
+    "kind": "dispatch",
+    "struct": "migrate_v2",
+    "cand": "0xc5a78",
+    "cand_sz": 552,
+    "pairing": "same_size",
+    "dep": "0x12c5a8",
+    "dep_sz": 552,
+    "norm_diffs": 60,
+    "cats": {
+      "field_offset": 7,
+      "other_imm": 1,
+      "opcode_shape": 51,
+      "regalloc": 1
+    },
+    "dep_already_matched": true,
+    "samples": {
+      "field_offset": [
+        {
+          "off": 24,
+          "opc_c": 123,
+          "frame_c": 65032,
+          "imm_c": 0,
+          "opc_d": 123,
+          "frame_d": 65008,
+          "imm_d": 0
+        },
+        {
+          "off": 80,
+          "opc_c": 123,
+          "frame_c": 65096,
+          "imm_c": 0,
+          "opc_d": 123,
+          "frame_d": 65040,
+          "imm_d": 0
+        },
+        {
+          "off": 176,
+          "opc_c": 121,
+          "frame_c": 65336,
+          "imm_c": 0,
+          "opc_d": 121,
+          "frame_d": 65296,
+          "imm_d": 0
+        }
+      ],
+      "other_imm": [
+        {
+          "off": 48,
+          "opc_c": 183,
+          "frame_c": 0,
+          "imm_c": 22,
+          "opc_d": 183,
+          "frame_d": 0,
+          "imm_d": 32
+        }
+      ],
+      "opcode_shape": [
+        {
+          "off": 64,
+          "opc_c": 122,
+          "frame_c": 65077,
+          "imm_c": -1,
+          "opc_d": 98,
+          "frame_d": 65036,
+          "imm_d": -1
+        },
+        {
+          "off": 72,
+          "opc_c": 122,
+          "frame_c": 65072,
+          "imm_c": -1,
+          "opc_d": 123,
+          "frame_d": 65048,
+          "imm_d": 0
+        },
+        {
+          "off": 88,
+          "opc_c": 123,
+          "frame_c": 65088,
+          "imm_c": 0,
+          "opc_d": 191,
+          "frame_d": 0,
+          "imm_d": 0
+        }
+      ],
+      "regalloc": [
+        {
+          "off": 152,
+          "opc_c": 191,
+          "frame_c": 0,
+          "imm_c": 0,
+          "opc_d": 191,
+          "frame_d": 0,
+          "imm_d": 0
+        }
+      ]
+    },
+    "cause": "field_order_or_type"
+  },
+  {
+    "kind": "try_deserialize",
+    "struct": "trade_types::BondingCurve",
+    "cand": "0x5bc50",
+    "cand_sz": 200,
+    "pairing": "same_size",
+    "dep": "0x1572b8",
+    "dep_sz": 200,
+    "norm_diffs": 22,
+    "cats": {
+      "opcode_shape": 20,
+      "regalloc": 1,
+      "other_imm": 1
+    },
+    "dep_already_matched": true,
+    "samples": {
+      "opcode_shape": [
+        {
+          "off": 0,
+          "opc_c": 191,
+          "frame_c": 0,
+          "imm_c": 0,
+          "opc_d": 123,
+          "frame_d": 65440,
+          "imm_d": 0
+        },
+        {
+          "off": 8,
+          "opc_c": 121,
+          "frame_c": 8,
+          "imm_c": 0,
+          "opc_d": 24,
+          "frame_d": 0,
+          "imm_d": 0
+        },
+        {
+          "off": 16,
+          "opc_c": 165,
+          "frame_c": 8,
+          "imm_c": 8,
+          "opc_d": 123,
+          "frame_d": 65472,
+          "imm_d": 0
+        }
+      ],
+      "regalloc": [
+        {
+          "off": 128,
+          "opc_c": 191,
+          "frame_c": 0,
+          "imm_c": 0,
+          "opc_d": 191,
+          "frame_d": 0,
+          "imm_d": 0
+        }
+      ],
+      "other_imm": [
+        {
+          "off": 136,
+          "opc_c": 7,
+          "frame_c": 0,
+          "imm_c": -24,
+          "opc_d": 7,
+          "frame_d": 0,
+          "imm_d": -88
+        }
+      ]
+    },
+    "cause": "field_order_or_type"
+  }
+]
